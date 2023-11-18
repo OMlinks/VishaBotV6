@@ -46,7 +46,7 @@ async def start(client, message):
             InlineKeyboardButton('🧬sᴜʀᴘʀɪsᴇ🧬', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAI8UWVBSvRpb6M-qSZpWPb_RGtCyMAdAALDAAMEgnsg4LX427M9zA0eBA") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAJUNGVXfsv4IQFEC877-P-JyIMUT6MBAAJUDAAC7JjgU96PDZ4e0VqjHgQ") 
         await asyncio.sleep(1)
         await m.delete()        
         await message.reply_photo(
