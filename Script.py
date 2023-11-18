@@ -9,8 +9,8 @@ class script(object):
 # ⚠️ Please don't change our credits 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Malayali_No2>✑ മലയꫂള ᭄℡</a>
-✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/P_H_Movies>Tᴏᴜᴄʜ</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/OM_links>ᴏᴍ_ʟɪɴᴋꜱᛤ</a>
+✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/OM_links>Tᴏᴜᴄʜᛣ</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -171,7 +171,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @M_MOVIES_23"""
+ <i>This feature added by @OM_links"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -235,7 +235,7 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱</b
- Bʏ @M_MOVIES_24>"""
+ Bʏ @OM_links>"""
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
@@ -301,9 +301,9 @@ Name - {}
 ➧ പുതിയ സിനിമകൾ / വെബ്‌ സീരീസ് വേണോ? എന്നാൽ പെട്ടെന്ന് ഗ്രൂപ്പിൽ ജോയിൻ ആയിക്കോ
 
 ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-💥     𝐇𝐃 :- <a href=https://t.me/+g4T8qKy5Gow3MjVl>𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄</a>
+💥     𝐇𝐃 :- <a href=https://t.me/OM_links>𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄</a>
 
-💥 𝐏𝐑𝐈𝐍𝐓 :- <a href=https://t.me/+M9aLM61fACwwZWY1>𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄</a>
+💥 𝐏𝐑𝐈𝐍𝐓 :- <a href=https://t.me/OM_links>𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄</a>
 ╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
@@ -336,7 +336,7 @@ Name - {}
     CUDNT_FND = """ʜᴇʟʟᴏ {} ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
     REPRT_MSG = """ Join our group ask movies there
-    <code>[JOIN GROUP](buttonurl:https://t.me/mallumovies_1)</code>"""
+    <code>[JOIN GROUP](buttonurl:https://t.me/OM_links)</code>"""
 
     CON_TXT = """<b><u>ᴄᴏᴜɴᴛʀʏ ɪɴғᴏ</b></u>
 <b>Tʜɪs ᴍᴏᴅᴜʟᴇ ɪs ᴛᴏ ғɪɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄᴏᴜɴᴛʀɪᴇs</b>
@@ -367,9 +367,9 @@ Name - {}
 ➪ /pbatch ›› <b>𝚄𝚂𝙴 𝚈𝙾𝚄𝚁 𝙼𝙴𝙳𝙸𝙰 𝙻𝙸𝙽𝙺 𝚆𝙸𝚃𝙷 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳.</b>
 ➪ /batch ›› <b>𝚃𝙾 𝙲𝚁𝙴𝙰𝚃𝙴 𝙻𝙸𝙽𝙺 𝙵𝙾𝚁 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝙵𝙸𝙻𝙴𝚂.</b>
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
-<code>/batch https://t.me/P_H_Movies https://t.me/P_H_Movies</code>
+<code>/batch https://t.me/OM_links/3 https://t.me/OM_links/76</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href='https://t.me/Malayali_No2'><b>✑ മലയꫂള ᭄℡𓆈</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href='https://t.me/OM_links'><b>ᴏᴍ_ʟɪɴᴋꜱᛤ</b></a>"""
     NORSLTS = """
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 
@@ -379,4 +379,4 @@ Name - {}
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href='https://t.me/Malayali_No2'><b>✑ മലയꫂള ᭄℡𓆈</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href='https://t.me/OM_links'><b>ᴏᴍ_ʟɪɴᴋꜱᛤ</b></a>"""
