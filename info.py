@@ -49,7 +49,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '5461187941:AAGd6E6BUHZYQPcliCmY5V9Pi_37_WS
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 600))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/9730497bd4aa03eea2656.jpg https://telegra.ph/file/9ff3c5f50fdf16ff4cf7e.jpg https://telegra.ph/file/1db11c1a2d35dcb207354.jpg https://telegra.ph/file/5a25dbc4dbc677c761981.jpg https://telegra.ph/file/9a82575f7ed66e8c62b51.jpg https://telegra.ph/file/4439eafc2fc0e64c9ed76.jpg https://telegra.ph/file/c1f93bda4643e5eb2e839.jpg https://telegra.ph/file/343f36bd18b9e5a3e3781.jpg https://telegra.ph/file/e614ae6b6d2f717b076b7.jpg https://telegra.ph/file/7e881d1a3241ea4e6d237.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/6275d4878be820ca59d67.jpg https://graph.org/file/e384beea66e2aded7e1f1.jpg https://graph.org/file/962224a28e76a415bc515.jpg https://graph.org/file/a0382582457e34f59c731.jpg https://graph.org/file/1b3202dca8454b893f7f8.jpg https://graph.org/file/4e8173128738cf10df2f2.jpg https://telegra.ph/file/bc6aadacb42fb633d3e63.jpg')).split()
 NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/e7fce1f32318ba0a2da79.jpg")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/63114c5ed2607063892c4.jpg")
 
@@ -116,9 +116,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/mallumovies_1")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+S-Y0_x6tMA81ODM1")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+R908vHMTVThiMjYx")
+S_GROUP = environ.get('S_GROUP',"https://t.me/OM_links")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/OM_links")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/OM_links")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001767943235'))
