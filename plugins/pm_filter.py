@@ -1,4 +1,4 @@
-# Kanged From @Malayali_No2
+# Kanged From @OM_links
 # REDIRECT added https://github.com/Joelkb
 import asyncio
 import re
@@ -114,7 +114,7 @@ async def next_page(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"🍇[{get_size(file.file_size)}]💃{file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                        text=f"⭕[{get_size(file.file_size)}]⭕{file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                     ),
                 ]
                 for file in files
@@ -137,7 +137,7 @@ async def next_page(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"🍇[{get_size(file.file_size)}]💃{file.file_name}", callback_data=f'files#{file.file_id}'
+                        text=f"⭕[{get_size(file.file_size)}]⭕{file.file_name}", callback_data=f'files#{file.file_id}'
                     ),
                 ]
                 for file in files
@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if (AUTH_CHANNEL or REQ_CHANNEL) and not await is_subscribed(client, query):
-            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\n @M_MOVIES_23", show_alert=True)
+            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\n @OM_links", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -746,12 +746,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🛰 𝑺𝑬𝑨𝑹𝑪𝑯 🛰', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🛡 ᎧᏇᏁᏋᏒ 🛡', url='https://t.me/Malayali_No2')
+            InlineKeyboardButton('🛡 ᎧᏇᏁᏋᏒ 🛡', url='https://t.me/OM_links')
             ],[
             InlineKeyboardButton('💠 HΞLᎮ 💠', callback_data='help2'),
             InlineKeyboardButton('༒ ΛBOUT ༒', callback_data='about')
             ],[
-            InlineKeyboardButton('🍿 ᗰOᐯIᗴ GᏒԾUᎮ 🍿', url='https://t.me/mallumovies_1')
+            InlineKeyboardButton('🍿 ᗰOᐯIᗴ GᏒԾUᎮ 🍿', url='https://t.me/OM_links')
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -839,7 +839,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', callback_data='updates'),
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/Malayali_No2'),
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/OM_links'),
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -857,8 +857,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "updates":
         buttons = [[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/mallumovies_1'),
-            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/P_H_Movies')
+            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/OM_links'),
+            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/OM_links')
             ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
@@ -1048,8 +1048,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/+GDQwGcdPjEo1MWUx'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Malayali_No2')
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/OM_links'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/OM_links')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
@@ -1299,7 +1299,7 @@ async def auto_filter(client, msg, spoll=False):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"🍇[{get_size(file.file_size)}]💃{file.file_name}", url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                        text=f"⭕[{get_size(file.file_size)}]⭕{file.file_name}", url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                     ),
                 ]
                 for file in files
@@ -1323,7 +1323,7 @@ async def auto_filter(client, msg, spoll=False):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"🍇[{get_size(file.file_size)}]💃{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                        text=f"⭕[{get_size(file.file_size)}]⭕{file.file_name}", callback_data=f'{pre}#{file.file_id}'
                     ),
                 ]
                 for file in files
