@@ -1,19 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑇𝐻𝐼𝑆+𝐼𝑆+Ꭾ๏๏ςђค+𝐵𝑂𝑇!;𝐶𝑅𝐸𝐴𝑇𝐸𝐷+𝐵𝑌+𝑀_𝑀𝑂𝑉𝐼𝐸𝑆_𝟮𝟯𓅥;𝐴+𝑃𝑂𝑊𝐸𝑅𝐹𝑈𝐿𝐿+𝑇𝐺+𝐴𝑈𝑇𝑂𝐹𝐼𝐿𝑇𝐸𝑅+𝐵𝑂𝑇!)</p>
-<p align="center">
-  <img src="https://telegra.ph/file/c5ae0bad71b171f7d30ef.jpg" alt="Ꭾ๏๏ςђคBotz LOGO">
-</p>
-<h1 align="center">
-  <b> 𝐏𝐎𝐎𝐂𝐇𝐀 𝐁𝐎𝐓</b>
-</h1>
 
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"><img src="https://img.shields.io/github/stars/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT/network/members"> <img src="https://img.shields.io/github/forks/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"> <img src="https://img.shields.io/github/repo-size/matrixbotz0/PETER-PARKER-BOT?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>   
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT/commit/main"> <img src="https://img.shields.io/github/last-commit/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"> <img src="https://img.shields.io/github/contributors/matrixbotz0/PETER-PARKER-BOT?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/matrixbotz0/PETER-PARKER-BOT/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
 
 
 ## Features
@@ -54,15 +39,8 @@
 
 ## Deploy to Heroku 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/matrixbotz0/PETER-PARKER-BOT)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OMlinks/VishaBotV6))
 
-## Deploy to Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/matrixbotz0/PETER-PARKER-BOT)
-
-## Deploy to Koyeb
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/PETER-PARKER-BOT&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_URL]&env[DB_NAME]=PETER-PARKER-botz&env[FORCE_SUB]&env[START_PIC]&env[PORT]=8080&run_command=python%20bot.py&branch=main&name=PETER-PARKER) 
 ## Commands
 ```
 start - check bot alive
@@ -93,8 +71,3 @@ channel - to get list of total connected channels
 broadcast - to broadcast a message to all users
 group_broadcast - to broadcast a message to all groups
 ```
-
-## TELAGRAM SUPPORT 
-
-* [![Matrix BOTZ](https://img.shields.io/static/v1?label=mmovies23&message=𓅥&color=critical)](https://t.me/Malayali_No2)
-
